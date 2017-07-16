@@ -1,0 +1,30 @@
+{
+  "name": "persisted_formula",
+  "version": "1.0.0",
+  "description": "Persistence library for rdflib formulae",
+  "main": "src/index.js",
+  "devDependencies": {
+    "standard": "^10.0.2"
+  },
+  "peerDependencies": {
+    "rdflib": ">=0.15.0"
+  },
+  "scripts": {
+    "format": "standard --fix"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/fletcher91/persisted_formula.git"
+  },
+  "keywords": [
+    "rdf",
+    "link",
+    "linkeddata",
+    "rdflib",
+    "rdfstore-js",
+    "indexeddb",
+    "persistence"
+  ],
+  "author": "Fletcher91 <thomvankalkeren@gmail.com>",
+  "license": "MIT"
+}
